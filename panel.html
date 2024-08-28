@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Panelim</h1>
+    <button onclick="exit()">Çıkış Yap</button>
+    <script src="index.js"></script>  
+    <script>
+        var exit = () =>{
+            localStorage.removeItem("giris")
+            window.location.href="login.html"
+        }
+        if (localStorage.getItem("giris") == null) {
+            window.location.href="login.html"
+            
+        }
+    </script> 
+</body>
+</html>
