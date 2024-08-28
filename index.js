@@ -13,7 +13,7 @@ var giris = (name , password ) => {
     }
     if(name == "orhanseyran35@gmail.com" && password == 142536)
     {
-        window.location.href = "panel.html";
+        window.location.href = "index.html";
         localStorage.setItem("giris", "true");
     }
 
